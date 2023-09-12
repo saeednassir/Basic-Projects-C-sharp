@@ -1,4 +1,4 @@
-<h3>Calculate Age</h3>
+<h3>Age calculation</h3>
 <br>
 
 <img src="https://github.com/saeednassir/Basic-Projects-C-sharp/blob/main/Calculate_Age/Images/calcAge-img.png?raw=true" alt="img not found"
