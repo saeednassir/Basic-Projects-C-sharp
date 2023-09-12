@@ -1,0 +1,10 @@
+H:\C#\Projects\UserPermissions\bin\Debug\UserPermissions.exe.config
+H:\C#\Projects\UserPermissions\bin\Debug\UserPermissions.exe
+H:\C#\Projects\UserPermissions\bin\Debug\UserPermissions.pdb
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.csproj.AssemblyReference.cache
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.frmMain.resources
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.Properties.Resources.resources
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.csproj.GenerateResource.cache
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.csproj.CoreCompileInputs.cache
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.exe
+H:\C#\Projects\UserPermissions\obj\Debug\UserPermissions.pdb

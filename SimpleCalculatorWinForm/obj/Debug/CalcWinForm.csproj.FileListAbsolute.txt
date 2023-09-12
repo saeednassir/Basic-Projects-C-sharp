@@ -1,0 +1,10 @@
+H:\C#\Projects\CalcWinForm\bin\Debug\CalcWinForm.exe.config
+H:\C#\Projects\CalcWinForm\bin\Debug\CalcWinForm.exe
+H:\C#\Projects\CalcWinForm\bin\Debug\CalcWinForm.pdb
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.csproj.AssemblyReference.cache
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.Form1.resources
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.Properties.Resources.resources
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.csproj.GenerateResource.cache
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.csproj.CoreCompileInputs.cache
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.exe
+H:\C#\Projects\CalcWinForm\obj\Debug\CalcWinForm.pdb

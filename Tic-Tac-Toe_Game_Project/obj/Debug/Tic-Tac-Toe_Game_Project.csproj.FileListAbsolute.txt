@@ -1,0 +1,10 @@
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\bin\Debug\Tic-Tac-Toe_Game_Project.exe.config
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\bin\Debug\Tic-Tac-Toe_Game_Project.exe
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\bin\Debug\Tic-Tac-Toe_Game_Project.pdb
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic-Tac-Toe_Game_Project.csproj.AssemblyReference.cache
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic_Tac_Toe_Game_Project.FrmMain.resources
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic_Tac_Toe_Game_Project.Properties.Resources.resources
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic-Tac-Toe_Game_Project.csproj.GenerateResource.cache
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic-Tac-Toe_Game_Project.csproj.CoreCompileInputs.cache
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic-Tac-Toe_Game_Project.exe
+H:\C#\Projects\Tic-Tac-Toe_Game_Project\obj\Debug\Tic-Tac-Toe_Game_Project.pdb

@@ -1,0 +1,11 @@
+H:\C#\Projects\MathQuizz\bin\Debug\MathQuizz.exe.config
+H:\C#\Projects\MathQuizz\bin\Debug\MathQuizz.exe
+H:\C#\Projects\MathQuizz\bin\Debug\MathQuizz.pdb
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.csproj.AssemblyReference.cache
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.frmMain.resources
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.Properties.Resources.resources
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.csproj.GenerateResource.cache
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.csproj.CoreCompileInputs.cache
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.exe
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.pdb
+H:\C#\Projects\MathQuizz\obj\Debug\MathQuizz.frmMathQuizz.resources

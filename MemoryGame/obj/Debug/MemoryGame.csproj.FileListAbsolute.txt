@@ -1,0 +1,10 @@
+H:\C#\Projects\MemoryGame\bin\Debug\MemoryGame.exe.config
+H:\C#\Projects\MemoryGame\bin\Debug\MemoryGame.exe
+H:\C#\Projects\MemoryGame\bin\Debug\MemoryGame.pdb
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.csproj.AssemblyReference.cache
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.frmMain.resources
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.Properties.Resources.resources
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.csproj.GenerateResource.cache
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.csproj.CoreCompileInputs.cache
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.exe
+H:\C#\Projects\MemoryGame\obj\Debug\MemoryGame.pdb

@@ -1,0 +1,10 @@
+H:\C#\Projects\SignIn&SignUp_Basic\bin\Debug\SignIn&SignUp_Basic.exe.config
+H:\C#\Projects\SignIn&SignUp_Basic\bin\Debug\SignIn&SignUp_Basic.exe
+H:\C#\Projects\SignIn&SignUp_Basic\bin\Debug\SignIn&SignUp_Basic.pdb
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn&SignUp_Basic.csproj.AssemblyReference.cache
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn_SignUp_Basic.frmMain.resources
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn_SignUp_Basic.Properties.Resources.resources
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn&SignUp_Basic.csproj.GenerateResource.cache
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn&SignUp_Basic.csproj.CoreCompileInputs.cache
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn&SignUp_Basic.exe
+H:\C#\Projects\SignIn&SignUp_Basic\obj\Debug\SignIn&SignUp_Basic.pdb
