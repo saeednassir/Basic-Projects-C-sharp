@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.txtScreen = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMinimized = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
@@ -40,8 +41,8 @@
             this.btnN7 = new ePOSOne.btnProduct.Button_WOC();
             this.btnN4 = new ePOSOne.btnProduct.Button_WOC();
             this.btnN5 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
+            this.btnSqrt = new ePOSOne.btnProduct.Button_WOC();
+            this.btnPow = new ePOSOne.btnProduct.Button_WOC();
             this.btnEqual = new ePOSOne.btnProduct.Button_WOC();
             this.btnN0 = new ePOSOne.btnProduct.Button_WOC();
             this.btnN8 = new ePOSOne.btnProduct.Button_WOC();
@@ -74,6 +75,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Orange;
+            this.panel1.Controls.Add(this.btnMinimized);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnClose);
@@ -82,6 +84,24 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(325, 40);
             this.panel1.TabIndex = 1;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
+            // 
+            // btnMinimized
+            // 
+            this.btnMinimized.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.btnMinimized.FlatAppearance.BorderSize = 0;
+            this.btnMinimized.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btnMinimized.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnMinimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimized.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimized.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMinimized.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimized.Image")));
+            this.btnMinimized.Location = new System.Drawing.Point(253, 4);
+            this.btnMinimized.Name = "btnMinimized";
+            this.btnMinimized.Size = new System.Drawing.Size(28, 28);
+            this.btnMinimized.TabIndex = 5;
+            this.btnMinimized.UseVisualStyleBackColor = false;
+            this.btnMinimized.Click += new System.EventHandler(this.btnMinimized_Click);
             // 
             // pictureBox1
             // 
@@ -106,7 +126,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -254,49 +274,49 @@
             this.btnN5.UseVisualStyleBackColor = true;
             this.btnN5.Click += new System.EventHandler(this.btnN_Click);
             // 
-            // button_WOC2
+            // btnSqrt
             // 
-            this.button_WOC2.BorderColor = System.Drawing.Color.Orange;
-            this.button_WOC2.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC2.FlatAppearance.BorderSize = 0;
-            this.button_WOC2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_WOC2.Location = new System.Drawing.Point(168, 124);
-            this.button_WOC2.Name = "button_WOC2";
-            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.Orange;
-            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.Orange;
-            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC2.Size = new System.Drawing.Size(60, 44);
-            this.button_WOC2.TabIndex = 7;
-            this.button_WOC2.Tag = "sq";
-            this.button_WOC2.Text = "√";
-            this.button_WOC2.TextColor = System.Drawing.Color.OrangeRed;
-            this.button_WOC2.UseVisualStyleBackColor = true;
-            this.button_WOC2.Click += new System.EventHandler(this.button_WOC2_Click);
+            this.btnSqrt.BorderColor = System.Drawing.Color.Orange;
+            this.btnSqrt.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnSqrt.FlatAppearance.BorderSize = 0;
+            this.btnSqrt.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnSqrt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnSqrt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSqrt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSqrt.Location = new System.Drawing.Point(168, 124);
+            this.btnSqrt.Name = "btnSqrt";
+            this.btnSqrt.OnHoverBorderColor = System.Drawing.Color.Orange;
+            this.btnSqrt.OnHoverButtonColor = System.Drawing.Color.Orange;
+            this.btnSqrt.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnSqrt.Size = new System.Drawing.Size(60, 44);
+            this.btnSqrt.TabIndex = 7;
+            this.btnSqrt.Tag = "sq";
+            this.btnSqrt.Text = "√";
+            this.btnSqrt.TextColor = System.Drawing.Color.OrangeRed;
+            this.btnSqrt.UseVisualStyleBackColor = true;
+            this.btnSqrt.Click += new System.EventHandler(this.btnSqrt_Click_1);
             // 
-            // button_WOC1
+            // btnPow
             // 
-            this.button_WOC1.BorderColor = System.Drawing.Color.Orange;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC1.FlatAppearance.BorderSize = 0;
-            this.button_WOC1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_WOC1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_WOC1.Location = new System.Drawing.Point(89, 124);
-            this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Orange;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Orange;
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
-            this.button_WOC1.Size = new System.Drawing.Size(60, 44);
-            this.button_WOC1.TabIndex = 7;
-            this.button_WOC1.Tag = "^";
-            this.button_WOC1.Text = "^";
-            this.button_WOC1.TextColor = System.Drawing.Color.OrangeRed;
-            this.button_WOC1.UseVisualStyleBackColor = true;
-            this.button_WOC1.Click += new System.EventHandler(this.btnOpertion_Click);
+            this.btnPow.BorderColor = System.Drawing.Color.Orange;
+            this.btnPow.ButtonColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnPow.FlatAppearance.BorderSize = 0;
+            this.btnPow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnPow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnPow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPow.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPow.Location = new System.Drawing.Point(89, 124);
+            this.btnPow.Name = "btnPow";
+            this.btnPow.OnHoverBorderColor = System.Drawing.Color.Orange;
+            this.btnPow.OnHoverButtonColor = System.Drawing.Color.Orange;
+            this.btnPow.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(29)))), ((int)(((byte)(36)))));
+            this.btnPow.Size = new System.Drawing.Size(60, 44);
+            this.btnPow.TabIndex = 7;
+            this.btnPow.Tag = "^";
+            this.btnPow.Text = "^";
+            this.btnPow.TextColor = System.Drawing.Color.OrangeRed;
+            this.btnPow.UseVisualStyleBackColor = true;
+            this.btnPow.Click += new System.EventHandler(this.btnOpertion_Click);
             // 
             // btnEqual
             // 
@@ -553,8 +573,8 @@
             this.Controls.Add(this.btnN7);
             this.Controls.Add(this.btnN4);
             this.Controls.Add(this.btnN5);
-            this.Controls.Add(this.button_WOC2);
-            this.Controls.Add(this.button_WOC1);
+            this.Controls.Add(this.btnSqrt);
+            this.Controls.Add(this.btnPow);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnN0);
             this.Controls.Add(this.btnN8);
@@ -603,8 +623,9 @@
         private ePOSOne.btnProduct.Button_WOC btnMult;
         private ePOSOne.btnProduct.Button_WOC btnDiv;
         private ePOSOne.btnProduct.Button_WOC btnEqual;
-        private ePOSOne.btnProduct.Button_WOC button_WOC1;
-        private ePOSOne.btnProduct.Button_WOC button_WOC2;
+        private ePOSOne.btnProduct.Button_WOC btnPow;
+        private ePOSOne.btnProduct.Button_WOC btnSqrt;
+        private System.Windows.Forms.Button btnMinimized;
     }
 }
 

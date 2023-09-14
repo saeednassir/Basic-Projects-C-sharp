@@ -4,11 +4,14 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using Button = System.Windows.Forms.Button;
+
 
 namespace AdvancedCalculator
 {
@@ -21,11 +24,6 @@ namespace AdvancedCalculator
         public frmMain()
         {
             InitializeComponent();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void btnN_Click(object sender, EventArgs e)
@@ -124,14 +122,43 @@ namespace AdvancedCalculator
 
         }
 
-        private void button_WOC2_Click(object sender, EventArgs e)
+        private void btnSqrt_Click_1(object sender, EventArgs e)
         {
-
             FirstNumber = Math.Sqrt(FirstNumber);
             txtScreen.Text = FirstNumber.ToString();
         }
+      
 
 
+        // Heder
+
+        private void btnMinimized_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        // #DRAGGABLE PANEL:
+
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HTCAPTION = 0x2;
+        [DllImport("User32.dll")]
+        public static extern bool ReleaseCapture();
+        [DllImport("User32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+        private void OnMouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+            }
+        }
 
     }
 }

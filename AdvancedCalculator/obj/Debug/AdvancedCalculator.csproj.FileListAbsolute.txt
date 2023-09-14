@@ -8,3 +8,13 @@ H:\C#\Projects\AdvancedCalculator\obj\Debug\AdvancedCalculator.csproj.GenerateRe
 H:\C#\Projects\AdvancedCalculator\obj\Debug\AdvancedCalculator.csproj.CoreCompileInputs.cache
 H:\C#\Projects\AdvancedCalculator\obj\Debug\AdvancedCalculator.exe
 H:\C#\Projects\AdvancedCalculator\obj\Debug\AdvancedCalculator.pdb
+H:\Programming\Basic projects using c#\AdvancedCalculator\bin\Debug\AdvancedCalculator.exe.config
+H:\Programming\Basic projects using c#\AdvancedCalculator\bin\Debug\AdvancedCalculator.exe
+H:\Programming\Basic projects using c#\AdvancedCalculator\bin\Debug\AdvancedCalculator.pdb
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.csproj.AssemblyReference.cache
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.frmMain.resources
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.Properties.Resources.resources
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.csproj.GenerateResource.cache
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.csproj.CoreCompileInputs.cache
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.exe
+H:\Programming\Basic projects using c#\AdvancedCalculator\obj\Debug\AdvancedCalculator.pdb
